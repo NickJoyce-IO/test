@@ -5,9 +5,9 @@ jobs:
     checks-bats-version:
         runs-on: ubuntu-latest
         steps: 
-             -run: echo "This jobs status is ${{ job.status }}"
-             -run: echo "This is how we do this"
-             -uses: actions/checkout@v3
+             - run: echo "This jobs status is ${{ job.status }}"
+             - run: echo "This is how we do this"
+             - uses: actions/checkout@v3
              
-             -run: echo "This jobs status is ${{ job.status }}"
+             - run: echo "This jobs status is ${{ job.status }}"
         
